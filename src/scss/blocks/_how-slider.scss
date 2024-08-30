@@ -1,0 +1,9 @@
+.how-slider {
+  &__wrapper {
+    padding-bottom: 34px;
+
+    @media(min-width: 480px) {
+      padding-bottom: 37px;
+    }
+  }
+}

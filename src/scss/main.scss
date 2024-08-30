@@ -1,8 +1,9 @@
-// базовые подключения
 @import "vars";
 @import "mixins";
 @import "fonts";
 @import "settings";
+
+@import "./vendor/_swiper";
 
 button {
   cursor: pointer;
@@ -168,7 +169,56 @@ button {
 }
 }
 
-// подключения компонентов страницы
+.title {
+  font-size: 28px;
+  color: #242424;
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @media(min-width: 1024px) {
+    font-size: 30px;
+  }
+
+  @media(min-width: 1920px) {
+    font-size: 56px;
+  }
+
+  @media(min-width: 4096px) {
+    font-size: 120px;
+  }
+
+  &__accent {
+    border-radius: 7.5px;
+    border-image-slice: 1;
+
+    @media(min-width: 1024px) {
+      border-radius: 8px;
+    }
+
+    @media(min-width: 1920px) {
+      border-radius: 15px;
+    }
+
+    @media(min-width: 4096px) {
+      border-radius: 32px;
+    }
+
+
+    &--blue {
+      background-image: (90deg, #578CE4 0%, #37CEDC 100%);
+
+    }
+    &--grey {
+      background: #D1D8EF;
+    }
+  }
+}
+
 @import "./components/header";
 @import './components/container';
 
@@ -176,3 +226,6 @@ button {
 
 
 @import './blocks/hero';
+@import './blocks/how';
+@import './blocks/phase-mobile';
+@import './blocks/how-slider';
