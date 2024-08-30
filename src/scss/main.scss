@@ -4,13 +4,168 @@
 @import "fonts";
 @import "settings";
 
+button {
+  cursor: pointer;
+}
+
 .button {
+  background: linear-gradient(90deg, #588CE4 0%, #36D1DC 100%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: #fff;
+  border: none;
+
+  border-radius: 81px;
+  padding: 13px 62px;
+
+
+@media(min-width:480px) {
+
 }
+
+@media(min-width:960px) {
+  font-size: 11px;
+  padding: 12px 55px;
+
+}
+
+@media(min-width:1024px) {
+  font-size: 14px;
+  padding: 17px 73px;
+
+}
+
+@media(min-width:1920px) {
+  font-size: 20px;
+  padding: 22px 105px;
+
+}
+
+@media(min-width:4096px) {
+  font-size: 43px;
+  padding: 48px 220px;
+
+}
+}
+
 .button--white {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #000;
+  background: #FFFFFF;
+  border: solid 1.34px;
+  border-radius: 17.4px;
+  border-color: #EEEAEF;
+
+  @media(min-width:960px) {
+    padding: 11px 17px;
+    font-size: 14px;
+    border: solid 1.55px;
+    border-radius: 20.1px;
+  }
+
+  @media(min-width:1024px) {
+    border-radius: 18.5px;
+  }
+
+  @media(min-width:1920px) {
+    padding: 15px 25px;
+    font-size: 17px;
+    border: solid 2px;
+    border-radius: 26px;
+
+  }
+
+  @media(min-width:4096px) {
+    padding: 30px 52px;
+    font-size: 36px;
+    border: solid 4.2px;
+    border-radius: 55px;
+
+  }
 }
+
 .button--border {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 10px 26px;
+  font-size: 12px;
+  background: transparent;
+  border: solid 1.34px #46AFE0;
+  border-radius: 14px;
+  border-style: solid;
+  color: #fff;
+
+  @media(min-width:960px) {
+    padding: 11px 30px;
+    font-size: 13px;
+    border-width: 1.55px;
+    border-radius: 20.2px;
+  }
+
+  @media(min-width: 1024px) {
+    border-radius: 18.6px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  @media(min-width:1920px) {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-width: 2px;
+    border-radius: 26px;
+    padding-left: 39px;
+    padding-right: 39px;
+
+  }
+
+  @media(min-width:4096px) {
+    padding: 30px 52px;
+    font-size: 39px;
+    border-width: 4.2px;
+    border-radius: 55px;
+    padding-left: 84px;
+    padding-right: 84px;
+
+  }
+
+
 }
+
 .h1 {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+@media(min-width:480px) {
+  font-size: 38px;
+}
+
+@media(min-width:960px) {
+
+}
+
+@media(min-width:1024px) {
+  font-size: 40px;
+}
+
+@media(min-width:1920px) {
+  font-size: 72px;
+
+}
+
+@media(min-width:4096px) {
+  font-size: 153px;
+
+}
 }
 
 // подключения компонентов страницы
