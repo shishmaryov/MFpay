@@ -1,0 +1,24 @@
+<svg width="360" height="784" viewBox="0 0 360 784" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_4270)">
+<rect width="360" height="784" fill="url(#paint0_linear_2001_4270)"/>
+<g filter="url(#filter0_f_2001_4270)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62.7016 336.012C135.579 342.932 199.097 371.053 246.657 410.586C290.146 446.735 299.665 493.259 308.412 540.253C319.211 598.277 354.284 663.498 302.211 709.078C248.238 756.32 148.746 754.516 62.7016 755.32C-24.9486 756.14 -129.243 762.286 -183.247 713.617C-235.777 666.276 -176.765 600.351 -175.94 540.253C-175.131 481.329 -231.678 415.698 -178.531 370.213C-124.324 323.819 -21.8018 327.988 62.7016 336.012Z" fill="#020E3E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M553.702 329.012C626.579 335.932 690.097 364.053 737.657 403.586C781.146 439.735 790.665 486.259 799.412 533.253C810.211 591.277 845.284 656.498 793.211 702.078C739.238 749.32 639.746 747.516 553.702 748.32C466.051 749.14 361.757 755.286 307.753 706.617C255.223 659.276 314.235 593.351 315.06 533.253C315.869 474.329 259.322 408.698 312.469 363.213C366.676 316.819 469.198 320.988 553.702 329.012Z" fill="#1F00DD" fill-opacity="0.75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M97.7016 -210.988C170.579 -204.068 234.097 -175.947 281.657 -136.414C325.146 -100.265 334.665 -53.7412 343.412 -6.74734C354.211 51.2766 389.284 116.498 337.211 162.078C283.238 209.32 183.746 207.516 97.7016 208.32C10.0514 209.14 -94.243 215.286 -148.247 166.617C-200.777 119.276 -141.765 53.3508 -140.94 -6.74734C-140.131 -65.6706 -196.678 -131.302 -143.531 -176.787C-89.324 -223.181 13.1982 -219.012 97.7016 -210.988Z" fill="#FF00E6" fill-opacity="0.75"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2001_4270" x="-705" y="-716" width="2026" height="1972" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_2001_4270"/>
+</filter>
+<linearGradient id="paint0_linear_2001_4270" x1="325.969" y1="-295.815" x2="-219.947" y2="-26.3928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#003A5A"/>
+<stop offset="0.644" stop-color="#000C3D"/>
+</linearGradient>
+<clipPath id="clip0_2001_4270">
+<rect width="360" height="784" fill="white"/>
+</clipPath>
+</defs>
+</svg>

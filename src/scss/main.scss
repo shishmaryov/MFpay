@@ -4,8 +4,20 @@
 @import "fonts";
 @import "settings";
 
+.button {
+}
+.button--white {
+}
+.button--border {
+}
+.h1 {
+}
+
 // подключения компонентов страницы
 @import "./components/header";
 @import './components/container';
 
 @import './pages/index-page';
+
+
+@import './blocks/hero';

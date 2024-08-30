@@ -1,1 +1,56 @@
-@include font-face("Muller", "../fonts/MullerRegular", 400, normal);
+@font-face {
+  font-weight: 400;
+  font-family: "Gotham pro";
+  font-style: normal;
+  src: url("../../fonts/Gotham Pro/gothampro.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Gotham pro";
+  font-style: itaclic;
+  src: url("../../fonts/Gotham Pro/gothampro_mediumitalic.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Gotham pro";
+  font-style: normal;
+  src: url("../../fonts/Gotham Pro/gothampro_bold.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Gotham pro";
+  font-style: italic;
+  src: url("../../fonts/Gotham Pro/gothampro_bolditalic.ttf") format("ttf");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-weight: 400;
+  font-family: "Inter";
+  font-style: normal;
+  src: url("../../fonts/Inter/Inter-Regular.otf") format("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Inter";
+  font-style: normal;
+  src: url("../../fonts/Inter/Inter-SemiBold.otf") format("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Inter";
+  font-style: normal;
+  src: url("../../fonts/Inter/Inter-Bold.otf") format("otf");
+  font-display: swap;
+}
