@@ -1,0 +1,135 @@
+.phase-desktop {
+
+  transition: 0.2s;
+  padding-left: 32px;
+  padding-bottom: 38px;
+  position: relative;
+  padding-top: 25px;
+  padding-right: 31px;
+
+  @media(min-width: 1024px) {
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-top: 27px;
+    padding-right: 34px;
+  }
+
+  @media(min-width: 1920px) {
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-top: 49.5px;
+    padding-right: 62px;
+  }
+
+  @media(min-width: 4096px) {
+    font-size: 50px;
+    margin-bottom: 22px;
+    padding-top: 105.5px;
+    padding-right: 132px;
+  }
+
+  &:hover {
+    transition: 0.2s;
+    background: linear-gradient(180deg, #EBEBFF 0%, rgba(253, 253, 253, 0) 100%);
+
+    &::before {
+      background: transparent;
+      outline-style: solid;
+      outline-width: 4.7px;
+      outline-color: #fff;
+
+      @media(min-width: 1024px) {
+        outline-width: 5px ;
+      }
+      @media(min-width: 1920px) {
+        outline-width: 9.4px ;
+      }
+      @media(min-width: 4096px) {
+        outline-width: 20.3px;
+      }
+    }
+  }
+
+  &::before {
+    position: absolute;
+    top: -21px;
+    left: 18px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    content: '';
+    background: #fff;
+
+    @media(min-width: 1024px) {
+      width: 15px;
+      height: 15px;
+      top: -23px;
+      left: 19px;
+
+    }
+
+    @media(min-width: 1920px) {
+      width: 28px;
+      height: 28px;
+      top: -44px;
+      left: 4px;
+    }
+
+    @media(min-width: 4096px) {
+      width: 60px;
+      height: 60px;
+      top: -94px;
+      // left: -25px;
+
+    }
+  }
+
+  &__title {
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #5962F6;
+    font-size: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 4.5px;
+
+
+    @media(min-width: 1024px) {
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    @media(min-width: 1920px) {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+
+    @media(min-width: 4096px) {
+      font-size: 50px;
+      margin-bottom: 22px;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 500;
+    color: #344054;
+    font-weight: 500;
+
+    @media(min-width: 1024px) {
+      font-size: 10px;
+    }
+
+    @media(min-width: 1920px) {
+      font-size: 18px;
+    }
+
+    @media(min-width: 4096px) {
+      font-size: 38px;
+    }
+  }
+
+
+
+}
