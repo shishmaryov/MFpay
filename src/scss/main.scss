@@ -176,41 +176,53 @@ button {
   font-weight: 700;
   font-style: italic;
   text-align: center;
+  line-height: 42px;
 
   margin-top: 0;
   margin-bottom: 0;
 
   @media(min-width: 1024px) {
     font-size: 30px;
+    line-height: 45px;
   }
 
   @media(min-width: 1920px) {
     font-size: 56px;
+    line-height: 84px;
   }
 
   @media(min-width: 4096px) {
     font-size: 120px;
+    line-height: 120px;
   }
 
   &__accent {
     border-radius: 7.5px;
     border-image-slice: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 
     @media(min-width: 1024px) {
       border-radius: 8px;
+      padding: 5px 8px;
     }
 
     @media(min-width: 1920px) {
       border-radius: 15px;
+      padding: 8px 10px;
     }
 
     @media(min-width: 4096px) {
       border-radius: 32px;
+      padding: 10px 15px;
     }
 
 
     &--blue {
-      background-image: (90deg, #578CE4 0%, #37CEDC 100%);
+      background: linear-gradient(90deg, #588CE4 0%, #36D1DC 100%);
+      color: #fff;
 
     }
     &--grey {
@@ -232,3 +244,4 @@ button {
 @import './blocks/phase-desktop';
 @import './blocks/consultation';
 @import './blocks/companies';
+@import './blocks/links';
