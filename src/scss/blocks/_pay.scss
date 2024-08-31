@@ -45,9 +45,9 @@
   &__after {
     position: absolute;
     bottom: 0;
-    right: 415px;
+    right: 52%;
 
-    @media(max-width: 960px) {
+    @media(max-width: 959px) {
       display: none;
     }
 
@@ -56,7 +56,7 @@
     }
 
     @media(min-width: 1920px) {
-      right: 43%;
+      right: 51%;
     }
 
     @media(min-width: 4096px) {

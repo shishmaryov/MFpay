@@ -15,6 +15,11 @@ const swiper = new Swiper('.how__slider', {
   },
 });
 
+const swiper2 = new Swiper('.features__slider', {
+  slidesPerView: '1',
+  centeredSlides: 'true',
+});
+
 import SmoothScroll from 'smooth-scroll';
 const scroll = new SmoothScroll('a[href*="#"]');
 

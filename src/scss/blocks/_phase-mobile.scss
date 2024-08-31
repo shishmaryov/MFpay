@@ -10,7 +10,7 @@
   padding-left: 55px;
   padding-right: 52px;
   box-sizing: border-box;
-  height: 220px;
+  min-height: 220px;
 
   @media(min-width: 480px) {
     width: 380px;
