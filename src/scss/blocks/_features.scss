@@ -2,6 +2,22 @@
   padding-top: 28px;
   padding-bottom: 17px;
 
+  @media(min-width: 480px) {
+    padding-top: 38px;
+  }
+
+  @media(min-width: 960px) {
+    padding-top: 48px;
+  }
+
+  @media(min-width: 1920px) {
+    padding-top: 74px;
+  }
+
+  @media(min-width: 4096px) {
+    padding-top: 147px;
+  }
+
   &__desktop {
     display: grid;
       grid-template-columns: 1fr 1fr;
