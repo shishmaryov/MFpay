@@ -1,0 +1,30 @@
+<svg width="360" height="640" viewBox="0 0 360 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2046_127)">
+<rect y="-0.25" width="360" height="640" fill="url(#paint0_linear_2046_127)"/>
+<g filter="url(#filter0_f_2046_127)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M493.702 269.762C566.579 276.682 630.097 304.803 677.657 344.336C721.146 380.485 730.665 427.009 739.412 474.003C750.211 532.027 785.284 597.249 733.211 642.828C679.238 690.07 579.746 688.266 493.702 689.07C406.051 689.89 301.757 696.036 247.753 647.367C195.223 600.026 254.235 534.101 255.06 474.003C255.869 415.079 199.322 349.448 252.469 303.963C306.676 257.569 409.198 261.738 493.702 269.762Z" fill="#1F00DD" fill-opacity="0.75"/>
+</g>
+<g filter="url(#filter1_f_2046_127)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.7016 -270.238C110.579 -263.318 174.097 -235.197 221.657 -195.664C265.146 -159.515 274.665 -112.991 283.412 -65.9973C294.211 -7.97336 329.284 57.2485 277.211 102.828C223.238 150.07 123.746 148.266 37.7016 149.07C-49.9486 149.89 -154.243 156.036 -208.247 107.367C-260.777 60.0261 -201.765 -5.89923 -200.94 -65.9973C-200.131 -124.921 -256.678 -190.552 -203.531 -236.037C-149.324 -282.431 -46.8018 -278.262 37.7016 -270.238Z" fill="#FF00E6" fill-opacity="0.75"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2046_127" x="-274" y="-235.25" width="1535" height="1425" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_2046_127"/>
+</filter>
+<filter id="filter1_f_2046_127" x="-730" y="-775.25" width="1535" height="1425" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_2046_127"/>
+</filter>
+<linearGradient id="paint0_linear_2046_127" x1="325.969" y1="-241.732" x2="-171.199" y2="58.8389" gradientUnits="userSpaceOnUse">
+<stop stop-color="#003A5A"/>
+<stop offset="0.644" stop-color="#000C3D"/>
+</linearGradient>
+<clipPath id="clip0_2046_127">
+<rect width="360" height="640" fill="white"/>
+</clipPath>
+</defs>
+</svg>
