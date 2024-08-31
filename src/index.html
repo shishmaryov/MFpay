@@ -187,11 +187,39 @@
             <p class="invoices__text">Over $10 million in invoices have already been issued and paid through our platform</p>
             <button class="button invoices__button">Get free account</button>
           </div>
-
-
         </div>
       </section>
-
+      <section class="pay">
+        <div class="container">
+          <div class="pay__column">
+            <picture>
+              <source srcset="img/pay-after-4096.svg" media="(min-width: 4096px)" />
+              <source srcset="img/pay-after-1920.svg" media="(min-width: 1920px)" />
+              <source srcset="img/pay-after-1024.svg" media="(min-width: 1024px)" />
+              <img src="img/pay-after-960.svg" alt="pay__after" class="pay__after">
+            </picture>
+            <picture>
+              <source srcset="img/pay-img-4096.png" media="(min-width: 4096px)" />
+              <source srcset="img/pay-img-1920.png" media="(min-width: 1920px)" />
+              <source srcset="img/pay-img-1024.png" media="(min-width: 1024px)" />
+              <source srcset="img/pay-img-960.png" media="(min-width: 960px)" />
+              <source srcset="img/pay-img-480.png" media="(min-width: 480px)" />
+              <img src="img/pay-img-360.png" alt="pay__img" class="pay__img">
+            </picture>
+          </div>
+          <div class="pay__column">
+            <h2 class="title pay__title">MFPay</h2>
+            <h3 class="pay__subtitle">Secure crypto payment <br> management for businesses</h3>
+            <ul class="pay__benefits">
+              <li class="pay__benefit">Invoicing and payments</li>
+              <li class="pay__benefit">Collecting analytics on crypto-accounting</li>
+              <li class="pay__benefit">A unified system of reporting</li>
+            </ul>
+            <p class="pay__descr">Secure. Simple. Convenient.</p>
+            <button class="button pay__button">Try it for free</button>
+          </div>
+        </div>
+      </section>
 
     </main>
     @include('partials/footer.html')
