@@ -120,7 +120,7 @@
   &__phases {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row: 1fr;
+    grid-template-rows: 1fr;
     position: relative;
     margin-left: 19px;
     margin-right: 19px;

@@ -36,7 +36,7 @@
 @font-face {
   font-weight: 500;
   font-family: "Gotham pro";
-  font-style: itaclic;
+  font-style: italic;
   src: url("../../fonts/Gotham Pro/gothampro_mediumitalic.ttf") format("ttf");
   font-display: swap;
 }
@@ -1822,8 +1822,8 @@ button {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-row: 1;
-  grid-row: 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
   position: relative;
   margin-left: 19px;
   margin-right: 19px;
@@ -3140,7 +3140,7 @@ button {
 }
 .plan__text {
   font-size: 8px;
-  line-height: auto;
+  line-height: 1.2;
   margin: 0;
 }
 @media (min-width: 480px) {
