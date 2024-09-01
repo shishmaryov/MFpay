@@ -2113,13 +2113,13 @@ button {
 }
 
 .companies {
-  background: url("../../img/companies-bg-360.svg");
+  background: url("../img/companies-bg-360.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   .companies {
-    background: url("../../img/companies-bg-4096.svg");
+    background: url("../img/companies-bg-4096.svg");
   }
 }
 .companies .container {
@@ -2342,7 +2342,7 @@ button {
   }
 }
 .invoices {
-  background-image: url("../../img/invoices-360-bg.svg");
+  background-image: url("../img/invoices-360-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
@@ -2362,7 +2362,7 @@ button {
 }
 @media (min-width: 1024px) {
   .invoices {
-    background-image: url("../../img/invoices-bg-4096.svg");
+    background-image: url("../img/invoices-bg-4096.svg");
     padding-top: 200px;
     padding-bottom: 243px;
   }
@@ -2659,7 +2659,7 @@ button {
   left: 0;
   width: 14px;
   height: 14px;
-  content: url("../../img/benefit.svg");
+  content: url("../img/benefit.svg");
 }
 @media (min-width: 1920px) {
   .pay__benefit::before {

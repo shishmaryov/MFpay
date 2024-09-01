@@ -1,5 +1,5 @@
 .invoices {
-  background-image: url('../../img/invoices-360-bg.svg');
+  background-image: url('../img/invoices-360-bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
@@ -16,7 +16,7 @@
   }
 
   @media(min-width: 1024px){
-    background-image: url('../../img/invoices-bg-4096.svg');
+    background-image: url('../img/invoices-bg-4096.svg');
     padding-top: 200px;
     padding-bottom: 243px;
   }
